@@ -4706,15 +4706,6 @@
       "registry_name": "firium_tree"
     },
     {
-      "name": "DarkTree",
-      "type": "structure",
-      "sortid": 532,
-      "compiles": true,
-      "locked_code": true,
-      "ids": {},
-      "registry_name": "dark_tree"
-    },
-    {
       "name": "IcyPineTree",
       "type": "structure",
       "sortid": 533,
@@ -7502,20 +7493,7 @@
       "ids": {},
       "registry_name": "on_entity_attacked",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -8079,7 +8057,7 @@
       "type": "structure",
       "sortid": 695,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "dark_light_tree"
     },
@@ -8108,6 +8086,235 @@
           }
         ]
       }
+    },
+    {
+      "name": "ItemIsCrafted",
+      "type": "procedure",
+      "sortid": 698,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_is_crafted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireMastersCrownRecipe",
+      "type": "recipe",
+      "sortid": 699,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_masters_crown_recipe"
+    },
+    {
+      "name": "FireMastersChestplateRecipe",
+      "type": "recipe",
+      "sortid": 700,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_masters_chestplate_recipe"
+    },
+    {
+      "name": "FireMastersLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 701,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_masters_leggings_recipe"
+    },
+    {
+      "name": "FireMastersBootsRecipe",
+      "type": "recipe",
+      "sortid": 702,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_masters_boots_recipe"
+    },
+    {
+      "name": "IceMastersCrownRecipe",
+      "type": "recipe",
+      "sortid": 703,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_masters_crown_recipe"
+    },
+    {
+      "name": "IceMastersChestplateRecipe",
+      "type": "recipe",
+      "sortid": 704,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_masters_chestplate_recipe"
+    },
+    {
+      "name": "IceMastersLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 705,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_masters_leggings_recipe"
+    },
+    {
+      "name": "IceMastersBootsRecipe",
+      "type": "recipe",
+      "sortid": 706,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_masters_boots_recipe"
+    },
+    {
+      "name": "LightningMastersCrownRecipe",
+      "type": "recipe",
+      "sortid": 707,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_masters_crown_recipe"
+    },
+    {
+      "name": "LightningMastersChestplateRecipe",
+      "type": "recipe",
+      "sortid": 708,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_masters_chestplate_recipe"
+    },
+    {
+      "name": "LightningMastersLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 709,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_masters_leggings_recipe"
+    },
+    {
+      "name": "HopeForest",
+      "type": "biome",
+      "sortid": 711,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hope_forest"
+    },
+    {
+      "name": "HopeTree",
+      "type": "structure",
+      "sortid": 712,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "hope_tree"
+    },
+    {
+      "name": "DarkTree",
+      "type": "structure",
+      "sortid": 713,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dark_tree"
+    },
+    {
+      "name": "PinkMushroom",
+      "type": "plant",
+      "sortid": 714,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_mushroom"
+    },
+    {
+      "name": "DarkPortalBlock",
+      "type": "block",
+      "sortid": 715,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_portal_block"
+    },
+    {
+      "name": "DarkAnchorUpdateTick",
+      "type": "procedure",
+      "sortid": 716,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_anchor_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkAnchor",
+      "type": "block",
+      "sortid": 716,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_anchor"
+    },
+    {
+      "name": "DarkPortalBlockEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 717,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_portal_block_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DarkRuinedPortal",
+      "type": "loottable",
+      "sortid": 718,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_ruined_portal"
+    },
+    {
+      "name": "DarkRuinedPortalStructure",
+      "type": "structure",
+      "sortid": 719,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "dark_ruined_portal_structure"
     }
   ],
   "variable_elements": [
@@ -8384,6 +8591,7 @@
       "block.elementalmaster.dark_stone_brick": "Dark Stone Brick",
       "item.elementalmaster.goldspike": "Gold Spike",
       "item.elementalmaster.tsunamisword": "Tsunami Sword",
+      "block.elementalmaster.dark_portal_block": "Dark Portal Block",
       "block.elementalmaster.light_sandstone_stairs": "Light Sandstone Stairs",
       "block.elementalmaster.naturestairs": "Greenilium Stairs",
       "item.minecraft.splash_potion.effect.infinite_mana": "Splash Infinite Mana",
@@ -8396,6 +8604,7 @@
       "item.elementalmaster.earth_masters_armorlegs": "Earth Masters Armor Leggings",
       "item.elementalmaster.eartharmor_helmet": "Earth Helmet",
       "item.elementalmaster.naturearmor_helmet": "Nature Helmet",
+      "block.elementalmaster.dark_anchor": "Dark Anchor",
       "item.elementalmaster.darknessrepeller": "Darkness Repeller",
       "block.elementalmaster.ice_ore_dark": "Icestone Ore",
       "item.elementalmaster.icearmor_boots": "Ice Boots",
@@ -8504,6 +8713,7 @@
       "item.minecraft.splash_potion.effect.manaregeneration": "Splash Mana Regeneration",
       "enchantment.elementalmaster.water_protection": "Water Protection",
       "item.elementalmaster.icestalagtitepower": "Ice Stalagtite Power",
+      "block.elementalmaster.pink_mushroom": "Pink Mushroom",
       "item.elementalmaster.lightextract": "Light Extract",
       "item.minecraft.lingering_potion.effect.frozen_effect": "Lingering Frozen Effect",
       "block.elementalmaster.darkplanks": "Dark Planks",
@@ -8849,6 +9059,7 @@
       "block.elementalmaster.dark_stone_brick": "Dark Stone Brick",
       "item.elementalmaster.goldspike": "Gold Spike",
       "item.elementalmaster.tsunamisword": "Tsunami Sword",
+      "block.elementalmaster.dark_portal_block": "Dark Portal Block",
       "block.elementalmaster.light_sandstone_stairs": "Light Sandstone Stairs",
       "block.elementalmaster.naturestairs": "Greenilium Stairs",
       "item.minecraft.splash_potion.effect.infinite_mana": "Splash Infinite Mana",
@@ -8861,6 +9072,7 @@
       "item.elementalmaster.earth_masters_armorlegs": "Earth Masters Armor Leggings",
       "item.elementalmaster.eartharmor_helmet": "Earth Helmet",
       "item.elementalmaster.naturearmor_helmet": "Nature Helmet",
+      "block.elementalmaster.dark_anchor": "Dark Anchor",
       "item.elementalmaster.darknessrepeller": "Darkness Repeller",
       "block.elementalmaster.ice_ore_dark": "Icestone Ore",
       "item.elementalmaster.icearmor_boots": "Ice Boots",
@@ -8969,6 +9181,7 @@
       "item.minecraft.splash_potion.effect.manaregeneration": "Splash Mana Regeneration",
       "enchantment.elementalmaster.water_protection": "Water Protection",
       "item.elementalmaster.icestalagtitepower": "Ice Stalagtite Power",
+      "block.elementalmaster.pink_mushroom": "Purple Mushroom",
       "item.elementalmaster.lightextract": "Light Extract",
       "item.minecraft.lingering_potion.effect.frozen_effect": "Lingering Frozen Effect",
       "block.elementalmaster.darkplanks": "Dark Planks",

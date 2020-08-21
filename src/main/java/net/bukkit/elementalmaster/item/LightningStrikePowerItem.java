@@ -54,7 +54,7 @@ public class LightningStrikePowerItem extends ElementalmasterModElements.ModElem
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("Equip it to your Staff Of Elements to strike 8 lightning around you!"));
 			list.add(new StringTextComponent("\u00A7eLevel 1 :-"));
-			list.add(new StringTextComponent("\u00A79Cooldown: \u00A761.5"));
+			list.add(new StringTextComponent("\u00A79Cooldown: \u00A762s"));
 			list.add(new StringTextComponent("\u00A73Mana Cost: \u00A7512"));
 		}
 	}

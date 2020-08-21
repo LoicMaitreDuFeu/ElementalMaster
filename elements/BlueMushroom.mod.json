@@ -39,17 +39,17 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 2,
+    "frequencyOnChunks": 4,
     "spawnWorldTypes": [
       "Surface",
       "CUSTOM:DarkDimension"
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:DarkForest"
+        "value": "CUSTOM:HopeForest"
       },
       {
-        "value": "roofed_forest"
+        "value": "CUSTOM:DarkForest"
       }
     ]
   }

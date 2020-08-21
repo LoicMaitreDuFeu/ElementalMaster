@@ -1,0 +1,39 @@
+{
+  "group": "elementalmaster",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "elementalmaster:iceingot"
+    },
+    "1": {
+      "item": "elementalmaster:iceingot"
+    },
+    "2": {
+      "item": "elementalmaster:iceingot"
+    },
+    "3": {
+      "item": "elementalmaster:iceingot"
+    },
+    "4": {
+      "item": "elementalmaster:icearmor_leggings"
+    },
+    "5": {
+      "item": "elementalmaster:iceingot"
+    },
+    "6": {
+      "item": "elementalmaster:iceingot"
+    },
+    "8": {
+      "item": "elementalmaster:iceingot"
+    }
+  },
+  "result": {
+    "item": "elementalmaster:ice_masters_armor_leggings",
+    "count": 1
+  }
+}

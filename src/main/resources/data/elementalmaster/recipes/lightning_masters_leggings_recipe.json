@@ -1,0 +1,39 @@
+{
+  "group": "elementalmaster",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "elementalmaster:lightningingot"
+    },
+    "1": {
+      "item": "elementalmaster:lightningingot"
+    },
+    "2": {
+      "item": "elementalmaster:lightningingot"
+    },
+    "3": {
+      "item": "elementalmaster:lightningingot"
+    },
+    "4": {
+      "item": "elementalmaster:lightningarmor_leggings"
+    },
+    "5": {
+      "item": "elementalmaster:lightningingot"
+    },
+    "6": {
+      "item": "elementalmaster:lightningingot"
+    },
+    "8": {
+      "item": "elementalmaster:lightningingot"
+    }
+  },
+  "result": {
+    "item": "elementalmaster:lightning_masters_armor_leggings",
+    "count": 1
+  }
+}

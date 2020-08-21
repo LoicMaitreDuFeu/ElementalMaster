@@ -20,9 +20,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Equip it to your Staff Of Elements to strike 8 lightning around you!",
+      "Equip it to your Staff Of Elements to strike lightning on ALL mobs around you in a radius of 8!",
       "§eLevel 2 :-",
-      "§9Cooldown: §61",
+      "§9Cooldown: §61.5s",
       "§3Mana Cost: §510"
     ],
     "hasGlow": false,

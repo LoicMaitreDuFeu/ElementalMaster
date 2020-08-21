@@ -70,7 +70,7 @@ public class DarkLightTreeStructure extends ElementalmasterModElements.ModElemen
 							continue;
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
-						BlockPos spawnTo = new BlockPos(i + -3, j, k + -3);
+						BlockPos spawnTo = new BlockPos(i, j + -1, k);
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
@@ -90,6 +90,8 @@ public class DarkLightTreeStructure extends ElementalmasterModElements.ModElemen
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("elementalmaster:darkforest")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("elementalmaster:hope_forest")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;

@@ -22,6 +22,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:DarkForest"
+      },
+      {
+        "value": "CUSTOM:HopeForest"
       }
     ],
     "ignoreBlocks": "STRUCTURE_BLOCK",

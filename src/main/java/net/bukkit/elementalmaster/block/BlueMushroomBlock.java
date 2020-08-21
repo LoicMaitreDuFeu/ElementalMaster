@@ -92,9 +92,9 @@ public class BlueMushroomBlock extends ElementalmasterModElements.ModElement {
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("elementalmaster:darkforest")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("elementalmaster:hope_forest")))
 				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("dark_forest")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("elementalmaster:darkforest")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
@@ -102,7 +102,7 @@ public class BlueMushroomBlock extends ElementalmasterModElements.ModElement {
 					feature.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
 									.tries(64).build())
-							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(2))));
+							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(4))));
 		}
 	}
 	public static class BlockCustomFlower extends FlowerBlock {

@@ -74,7 +74,7 @@ public class LightningStrikePowerRightClickedInAirProcedure extends Elementalmas
 				}
 			}
 			if (entity instanceof PlayerEntity)
-				((PlayerEntity) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 30);
+				((PlayerEntity) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 40);
 			if (world instanceof ServerWorld)
 				((ServerWorld) world).addLightningBolt(new LightningBoltEntity(world.getWorld(), (int) (x - 5), (int) y, (int) (z - 5), false));
 			if (world instanceof ServerWorld)

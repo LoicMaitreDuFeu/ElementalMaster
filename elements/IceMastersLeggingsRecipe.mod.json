@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:IceIngot"
+      },
+      {
+        "value": "CUSTOM:IceIngot"
+      },
+      {
+        "value": "CUSTOM:IceIngot"
+      },
+      {
+        "value": "CUSTOM:IceIngot"
+      },
+      {
+        "value": "CUSTOM:IceArmor.legs"
+      },
+      {
+        "value": "CUSTOM:IceIngot"
+      },
+      {
+        "value": "CUSTOM:IceIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IceIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IceMastersArmor.legs"
+    },
+    "name": "ice_masters_leggings_recipe",
+    "namespace": "mod"
+  }
+}

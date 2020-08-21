@@ -2,10 +2,17 @@ package net.bukkit.elementalmaster.procedures;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.IWorld;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.math.Vec2f;
+import net.minecraft.potion.Effects;
+import net.minecraft.potion.EffectInstance;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.effect.LightningBoltEntity;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.command.ICommandSource;
+import net.minecraft.command.CommandSource;
 
 import net.bukkit.elementalmaster.ElementalmasterModVariables;
 import net.bukkit.elementalmaster.ElementalmasterModElements;
@@ -73,24 +80,16 @@ public class LightningStrikePower2RightClickedInAirProcedure extends Elementalma
 			if ((((itemstack).getOrCreateTag().getBoolean("XPBonus")) == (true))) {
 				(itemstack).getOrCreateTag().putDouble("XPAmount", (((itemstack).getOrCreateTag().getDouble("XPAmount")) - 2));
 			}
+			if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+				world.getWorld().getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+						"execute at @p run execute at @e[distance=..8] run summon minecraft:lightning_bolt");
+			}
 			if (entity instanceof PlayerEntity)
-				((PlayerEntity) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 20);
-			if (world instanceof ServerWorld)
-				((ServerWorld) world).addLightningBolt(new LightningBoltEntity(world.getWorld(), (int) (x - 5), (int) y, (int) (z - 5), false));
-			if (world instanceof ServerWorld)
-				((ServerWorld) world).addLightningBolt(new LightningBoltEntity(world.getWorld(), (int) x, (int) y, (int) (z - 6), false));
-			if (world instanceof ServerWorld)
-				((ServerWorld) world).addLightningBolt(new LightningBoltEntity(world.getWorld(), (int) (x + 5), (int) y, (int) (z - 5), false));
-			if (world instanceof ServerWorld)
-				((ServerWorld) world).addLightningBolt(new LightningBoltEntity(world.getWorld(), (int) (x + 6), (int) y, (int) z, false));
-			if (world instanceof ServerWorld)
-				((ServerWorld) world).addLightningBolt(new LightningBoltEntity(world.getWorld(), (int) (x + 5), (int) y, (int) (z + 5), false));
-			if (world instanceof ServerWorld)
-				((ServerWorld) world).addLightningBolt(new LightningBoltEntity(world.getWorld(), (int) x, (int) y, (int) (z + 6), false));
-			if (world instanceof ServerWorld)
-				((ServerWorld) world).addLightningBolt(new LightningBoltEntity(world.getWorld(), (int) (x - 6), (int) y, (int) (z + 5), false));
-			if (world instanceof ServerWorld)
-				((ServerWorld) world).addLightningBolt(new LightningBoltEntity(world.getWorld(), (int) (x - 5), (int) y, (int) z, false));
+				((PlayerEntity) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 30);
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 30, (int) 20, (false), (false)));
 		}
 	}
 }

@@ -94,7 +94,7 @@ public class PurpleMushroomBlock extends ElementalmasterModElements.ModElement {
 			boolean biomeCriteria = false;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("elementalmaster:darkforest")))
 				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("dark_forest")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("elementalmaster:hope_forest")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;

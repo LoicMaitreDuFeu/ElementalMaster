@@ -37,7 +37,7 @@ import com.google.common.collect.ImmutableMap;
 @ElementalmasterModElements.ModElement.Tag
 public class DarkTreeStructure extends ElementalmasterModElements.ModElement {
 	public DarkTreeStructure(ElementalmasterModElements instance) {
-		super(instance, 532);
+		super(instance, 713);
 	}
 
 	@Override
@@ -56,7 +56,7 @@ public class DarkTreeStructure extends ElementalmasterModElements.ModElement {
 				if (!dimensionCriteria)
 					return false;
 				if ((random.nextInt(1000000) + 1) <= 900000) {
-					int count = random.nextInt(3) + 1;
+					int count = random.nextInt(2) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
 						int k = ck + random.nextInt(16);

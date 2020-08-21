@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elementalmaster:block/dark_portal_block"
+    },
+    "type=top": {
+      "model": "elementalmaster:block/dark_portal_block_top"
+    },
+    "type=double": {
+      "model": "elementalmaster:block/dark_portal_block_full"
+    }
+  }
+}

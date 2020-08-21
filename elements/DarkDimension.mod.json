@@ -22,6 +22,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:DarkForest"
+      },
+      {
+        "value": "CUSTOM:HopeForest"
       }
     ],
     "worldGenType": "Normal world gen",

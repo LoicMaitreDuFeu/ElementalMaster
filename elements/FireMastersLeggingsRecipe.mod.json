@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FireIngot"
+      },
+      {
+        "value": "CUSTOM:FireIngot"
+      },
+      {
+        "value": "CUSTOM:FireIngot"
+      },
+      {
+        "value": "CUSTOM:FireIngot"
+      },
+      {
+        "value": "CUSTOM:FireArmor.legs"
+      },
+      {
+        "value": "CUSTOM:FireIngot"
+      },
+      {
+        "value": "CUSTOM:FireIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FireIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FireMastersArmor.legs"
+    },
+    "name": "fire_masters_leggings_recipe",
+    "namespace": "mod"
+  }
+}

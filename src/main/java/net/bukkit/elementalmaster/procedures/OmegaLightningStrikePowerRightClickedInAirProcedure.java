@@ -86,7 +86,7 @@ public class OmegaLightningStrikePowerRightClickedInAirProcedure extends Element
 				world.getWorld().getServer().getCommandManager().handleCommand(
 						new CommandSource(ICommandSource.DUMMY, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
 								new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
-						"execute at @p run execute at @e[distance=..10] run summon minecraft:lightning_bolt");
+						"execute at @p run execute at @e[distance=..12] run summon minecraft:lightning_bolt");
 			}
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 30, (int) 20, (false), (false)));

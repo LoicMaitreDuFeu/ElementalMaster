@@ -1,0 +1,226 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:fireingot",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:iceingot",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:lightningingot",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:wateringot",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:earthingot",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:natureingot",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:mana_fruit",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:elemental_nugget",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:lightningstrikepower",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:teleportation_power",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:magic_ball_power",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:magic_laser_power",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:fireball_shot_1",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:icestalagtitepower",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:water_power",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:nature_power",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:earth_power",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:light_shot_power_1",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:firepickaxe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:waterarmor_leggings",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:watershovel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:earthaxe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:icehoe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:naturearmor_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:firearmor_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:waterarmor_boots",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:lightningaxe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:earthshovel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:icepickaxe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:wateraxe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "elementalmaster:naturesword",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 10
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

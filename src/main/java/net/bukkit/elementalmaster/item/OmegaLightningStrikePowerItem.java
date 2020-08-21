@@ -60,9 +60,9 @@ public class OmegaLightningStrikePowerItem extends ElementalmasterModElements.Mo
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Equip it to your Staff Of Elements to strike lightning on ALL mobs around you in a radius of 10!"));
+			list.add(new StringTextComponent("Equip it to your Staff Of Elements to strike lightning on ALL mobs around you in a radius of 12!"));
 			list.add(new StringTextComponent("\u00A7eLevel 3 :-"));
-			list.add(new StringTextComponent("\u00A79Cooldown: \u00A760.5"));
+			list.add(new StringTextComponent("\u00A79Cooldown: \u00A761s"));
 			list.add(new StringTextComponent("\u00A73Mana Cost: \u00A7510"));
 		}
 	}

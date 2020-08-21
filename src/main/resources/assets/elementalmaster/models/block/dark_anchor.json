@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elementalmaster:blocks/darkframe",
+    "up": "elementalmaster:blocks/darkframe",
+    "north": "elementalmaster:blocks/darkframe",
+    "east": "elementalmaster:blocks/darkframe",
+    "south": "elementalmaster:blocks/darkframe",
+    "west": "elementalmaster:blocks/darkframe",
+    "particle": "elementalmaster:blocks/darkframe"
+  }
+}

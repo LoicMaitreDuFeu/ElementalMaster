@@ -1,0 +1,306 @@
+{
+  "_fv": 10,
+  "_type": "loottable",
+  "definition": {
+    "type": "Chest",
+    "pools": [
+      {
+        "minrolls": 1,
+        "maxrolls": 5,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:FireIngot"
+            },
+            "weight": 20
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:IceIngot"
+            },
+            "weight": 20
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:LightningIngot"
+            },
+            "weight": 20
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:WaterIngot"
+            },
+            "weight": 20
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:EarthIngot"
+            },
+            "weight": 20
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:NatureIngot"
+            },
+            "weight": 20
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:ManaFruit"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:ElementalNugget"
+            },
+            "weight": 5
+          }
+        ]
+      },
+      {
+        "minrolls": 0,
+        "maxrolls": 1,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:LightningStrikePower"
+            },
+            "weight": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:TeleportationPower"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:MagicBallPower"
+            },
+            "weight": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:MagicLaserPower"
+            },
+            "weight": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:FireballShot1"
+            },
+            "weight": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:IceStalagtitePower"
+            },
+            "weight": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:WaterPower"
+            },
+            "weight": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:NaturePower"
+            },
+            "weight": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:EarthPower"
+            },
+            "weight": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:LightShotPower1"
+            },
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 2,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 1,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:FirePickaxe"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:WaterArmor.legs"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:WaterShovel"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:EarthAxe"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:IceHoe"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:NatureArmor.body"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:FireArmor.body"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:WaterArmor.boots"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:LightningAxe"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:EarthShovel"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:IcePickaxe"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:WaterAxe"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:NatureSword"
+            },
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "minrolls": 1,
+        "maxrolls": 10,
+        "minbonusrolls": 1,
+        "maxbonusrolls": 2,
+        "hasbonusrolls": true,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLD_INGOT"
+            },
+            "weight": 4
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.DIAMOND"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.EMERALD"
+            },
+            "weight": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.IRON_INGOT"
+            },
+            "weight": 5
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.REDSTONE"
+            },
+            "weight": 3
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.DYE#4"
+            },
+            "weight": 3
+          }
+        ]
+      }
+    ],
+    "name": "chests/dark_ruined_portal",
+    "namespace": "minecraft"
+  }
+}

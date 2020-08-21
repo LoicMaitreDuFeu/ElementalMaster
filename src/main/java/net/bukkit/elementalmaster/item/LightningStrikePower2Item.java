@@ -52,9 +52,9 @@ public class LightningStrikePower2Item extends ElementalmasterModElements.ModEle
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Equip it to your Staff Of Elements to strike 8 lightning around you!"));
+			list.add(new StringTextComponent("Equip it to your Staff Of Elements to strike lightning on ALL mobs around you in a radius of 8!"));
 			list.add(new StringTextComponent("\u00A7eLevel 2 :-"));
-			list.add(new StringTextComponent("\u00A79Cooldown: \u00A761"));
+			list.add(new StringTextComponent("\u00A79Cooldown: \u00A761.5s"));
 			list.add(new StringTextComponent("\u00A73Mana Cost: \u00A7510"));
 		}
 	}

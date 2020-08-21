@@ -124,7 +124,8 @@ public class DarkDimensionDimension extends ElementalmasterModElements.ModElemen
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("elementalmaster:darkforest")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("elementalmaster:darkforest")),
+				ForgeRegistries.BIOMES.getValue(new ResourceLocation("elementalmaster:hope_forest")),};
 	}
 
 	@Override

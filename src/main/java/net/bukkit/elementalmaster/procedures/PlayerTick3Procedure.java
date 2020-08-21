@@ -78,19 +78,37 @@ public class PlayerTick3Procedure extends ElementalmasterModElements.ModElement 
 			}
 			if ((ForgeRegistries.BIOMES.getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z)))
 					.equals(new ResourceLocation("elementalmaster:darkforest")))) {
-				if ((Math.random() < 0.3)) {
+				if ((Math.random() < 0.2)) {
 					if (world instanceof ServerWorld) {
-						((ServerWorld) world).spawnParticle(ParticleTypes.PORTAL, x, y, z, (int) 40, 20, 20, 20, 1);
+						((ServerWorld) world).spawnParticle(ParticleTypes.PORTAL, x, y, z, (int) 35, 15, 15, 15, 1);
 					}
 				}
-				if ((Math.random() < 0.3)) {
+				if ((Math.random() < 0.2)) {
 					if (world instanceof ServerWorld) {
-						((ServerWorld) world).spawnParticle(ParticleTypes.PORTAL, x, y, z, (int) 40, 20, 20, 20, 1);
+						((ServerWorld) world).spawnParticle(ParticleTypes.PORTAL, x, y, z, (int) 35, 15, 15, 15, 1);
 					}
 				}
-				if ((Math.random() < 0.3)) {
+				if ((Math.random() < 0.2)) {
 					if (world instanceof ServerWorld) {
-						((ServerWorld) world).spawnParticle(ParticleTypes.PORTAL, x, y, z, (int) 40, 20, 20, 20, 1);
+						((ServerWorld) world).spawnParticle(ParticleTypes.PORTAL, x, y, z, (int) 35, 15, 15, 15, 1);
+					}
+				}
+			}
+			if ((ForgeRegistries.BIOMES.getKey(world.getBiome(new BlockPos((int) x, (int) y, (int) z)))
+					.equals(new ResourceLocation("elementalmaster:hope_forest")))) {
+				if ((Math.random() < 0.2)) {
+					if (world instanceof ServerWorld) {
+						((ServerWorld) world).spawnParticle(ParticleTypes.FIREWORK, x, y, z, (int) 15, 15, 15, 15, 0.05);
+					}
+				}
+				if ((Math.random() < 0.2)) {
+					if (world instanceof ServerWorld) {
+						((ServerWorld) world).spawnParticle(ParticleTypes.FIREWORK, x, y, z, (int) 15, 15, 15, 15, 0.05);
+					}
+				}
+				if ((Math.random() < 0.2)) {
+					if (world instanceof ServerWorld) {
+						((ServerWorld) world).spawnParticle(ParticleTypes.FIREWORK, x, y, z, (int) 15, 15, 15, 15, 0.05);
 					}
 				}
 			}

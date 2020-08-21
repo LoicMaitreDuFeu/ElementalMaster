@@ -1,0 +1,53 @@
+{
+  "_fv": 10,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "pinkmushroom",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "staticPlantGenerationType": "Flower",
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "name": "Pink Mushroom",
+    "specialInfo": [
+      "These little mushs helps to make light in obscurity"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElementalPlants"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 1.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:DarkDimension"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:HopeForest"
+      }
+    ]
+  }
+}
