@@ -100,7 +100,7 @@ public class PinkMushroomBlock extends ElementalmasterModElements.ModElement {
 					feature.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
 									.tries(64).build())
-							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(5))));
+							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(6))));
 		}
 	}
 	public static class BlockCustomFlower extends FlowerBlock {

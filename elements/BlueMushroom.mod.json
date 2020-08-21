@@ -39,7 +39,7 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 4,
+    "frequencyOnChunks": 5,
     "spawnWorldTypes": [
       "Surface",
       "CUSTOM:DarkDimension"
